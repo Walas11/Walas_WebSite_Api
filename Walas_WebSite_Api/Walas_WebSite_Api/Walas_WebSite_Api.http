@@ -1,0 +1,6 @@
+@Walas_WebSite_Api_HostAddress = http://localhost:5282
+
+GET {{Walas_WebSite_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

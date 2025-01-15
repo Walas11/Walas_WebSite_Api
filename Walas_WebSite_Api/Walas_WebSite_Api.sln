@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walas_WebSite_Api", "Walas_WebSite_Api\Walas_WebSite_Api.csproj", "{F5AB3779-93B2-423C-81C1-79164DB1E01E}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0B5769EB-F76D-49FE-9FDD-DAC42BA0D4D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{0FE8A8C3-4E2D-441F-A2FC-BF7F9BF74574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{ED0D8A1C-A1B9-467F-9702-6B58E01B6630}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0FE8A8C3-4E2D-441F-A2FC-BF7F9BF74574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FE8A8C3-4E2D-441F-A2FC-BF7F9BF74574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FE8A8C3-4E2D-441F-A2FC-BF7F9BF74574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0D8A1C-A1B9-467F-9702-6B58E01B6630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0D8A1C-A1B9-467F-9702-6B58E01B6630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0D8A1C-A1B9-467F-9702-6B58E01B6630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0D8A1C-A1B9-467F-9702-6B58E01B6630}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

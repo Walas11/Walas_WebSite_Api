@@ -11,7 +11,7 @@ namespace Infrastructure.Database.Context
         }
 
         #region DBSets
-        public virtual DbSet<UserEntity> User { get; set; }
+        //public virtual DbSet<UserEntity> User { get; set; }
 
         #endregion
     }

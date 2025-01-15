@@ -22,6 +22,13 @@ namespace Walas_WebSite_Api.Controllers
             return "value";
         }
 
+        // GET api/<UserController>/5
+        [HttpGet("GetUserByLogin/{cedula}/{password}")]
+        public string Get(int cedula, string Password)
+        {
+            return "value";
+        }
+
         // POST api/<UserController>
         [HttpPost("PostUser")]
         public void Post([FromBody] string value)
